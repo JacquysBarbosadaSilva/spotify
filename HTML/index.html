@@ -3,9 +3,240 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <link rel="stylesheet" href="../CSS/style.CSS">
+        <title>Spotify</title>
     </head>
     <body>
+        <div class="sidebar">
+            <div class="fundo-sidebar">
+                <div class="logo">
+                    <img src="../img/spotify logo.png" alt="">
+                </div>
+
+                <div class="navegacao">
+                    <ul>
+                        <li>
+                            <a href="../HTML/index.html">
+                                <span class="fa fa-home"></span>
+                                <span>Início</span>
+                            </a>
+                        </li>
         
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-search"></span>
+                                <span>Buscar</span>
+                            </a>
+                        </li>
+                </div>
+            </div>
+            
+            <div class="fundo-sidebar-playlist">
+                <div class="navegacao">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="fa fas fa-book"></span>
+                                <span>Sua biblioteca</span>
+                            </a>
+                            
+                        </li>
+                    </ul>
+
+                    <ul id="playlist">
+                        <li>
+                            <h4>Crie sua playlist</h4>
+                            <p>É fácil, vamos te ajudar</p>
+                            <button class="botao-playlist">Criar Playlist</button>
+                        </li>
+                    </ul>
+
+                    <ul id="playlist">
+                        <li>
+                            <h4>Que tal seguir um podcast novo?</h4>
+                            <p>Avisaremos você de novos episódios</p>
+                            <button class="botao-playlist">Explore podcasts</button>
+                        </li>
+                    </ul>
+                    
+                </div>
+            
+        
+                <div class="politicas">
+                    <ul>
+                        <li>
+                            <a href="#">Legal Segurança e Centro de privacidade</a>
+                        </li>
+        
+                        <li>
+                            <a href="#">Política de Privacidade Cookies Sobre anúncios</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Acessibilidade</a>
+                        </li>
+
+                    </ul>
+                </div>
+    
+            </div>
+            
+        </div>
+
+        <div class="main-content">
+            <div class="top-bar">
+                <div class="prev-next-buttons">
+                    <button type="button" class="fa fas fa-chevron-left"></button>
+                    <button type="button" class="fa fas fa-chevron-right"></button>
+                </div>
+
+                <div class="navbar">
+                    <ul>
+                        <li>
+                            <li class="divider"></li>
+                        </li>
+
+                        <li>
+                            <a href="#">Inscrever-se</a>
+                        </li>
+                    </ul>
+                    <button type="button">Entrar</button>
+                </div>
+            </div>
+
+            <div class="spotify-artistas">
+                <h2>Artistas Populares</h2>
+
+                <div class="list">
+                    <div class="item">
+                        <a href="../HTML/player1kilo.html"><img src="../img/1kilo logo.jpg" alt="1kilo"></a>
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>1kilo</h4>
+                        <p>Banda</p>
+                    </div>
+
+                    <div class="item">
+                        <a href="../HTML/player-turma-do-pagode.html"><img src="../img/Turma do pagode.jpg" alt="Turma do Pagode"></a>
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Turma do Pagode</h4>
+                        <p>Banda</p>
+                    </div>
+
+                    <div class="item">
+                        <a href="../HTML/player-giveon.html"><img src="../img/giveon.jpeg" alt="Giveon"></a>
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Giveon</h4>
+                        <p>Artista</p>
+                    </div>
+
+                    <div class="item">
+                        <a href="../HTML/player-Daniel-Caesar.html"><img src="../img/Daniel Ceaser.jpg" alt="Daniel Caeser"></a>
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Daniel Caeser</h4>
+                        <p>Artista</p>
+                    </div>
+
+                    <div class="item">
+                        <a href="../HTML/player-grupo-revelacao.html"><img src="../img/gruporevelação.jpg" alt="Grupo revelação"></a>
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Grupo Revelação</h4>
+                        <p>Banda</p>
+                    </div>
+
+                    <div class="item">
+                        <a href="../HTML/player-zeca pagodinho.html"><img src="../img/zeca pagodinho.jpg" alt="Zeca pagodinho"></a>
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Zeca pagodinho</h4>
+                        <p>Artista</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spotify-albuns">
+                <h2>Álbuns Populares</h2>
+
+                <div class="list">
+                    <div class="item">
+                        <a href="../HTML/player-Resenha-na-Praia.html"><img src="../img/Resenha na Praia.jpg" alt="Playlist resenha na praia"></a>
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Resenha na Praia</h4>
+                        <p>De Spotify</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="../img/Turma do pagode XV Anos.jpg" alt="Turma do Pagode Álbum de 15 Anos">
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Turma do Pagode XV...</h4>
+                        <p>2016 • Turma do Pagode</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="../img/give or take.jpg" alt="Álbum give or take">
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Giveon Or Take</h4>
+                        <p>2022 • Giveon</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="../img/Freudian.jpg" alt="Daniel Caeser - Álbum Freudian">
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Freudian</h4>
+                        <p>2017 • Daniel Caesar</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="../img/100 revelaçcao.jpg" alt="Grupo revelação - Álbum 100% Revelação">
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>100% Grupo...</h4>
+                        <p>2009 • Grupo Revelação</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="../img/Zeca pagodinho - uma prova de amor.jpg" alt="Zeca pagodinho - Álbum uma prova d eamor">
+                        <div class="play">
+                            <span class="fa fa-play"></span>
+                        </div>
+                        <h4>Zeca pagodinho - U...</h4>
+                        <p>2009 • Zeca pagodinho</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preview">
+                <div class="text">
+                    <h6>Testar o premium de graça</h6>
+                    <p>Inscreva-se para curtir música ilimitada e podcast só com alguns anúncios. Não precisa de cartão de crédito</p>
+                </div>
+
+                <div class="button">
+                    <button type="button">Inscreva-se grátis</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/75655b594d.js" crossorigin="anonymous"></script>
+
     </body>
 </html>
