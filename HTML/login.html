@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Login</title>
+        <link rel="stylesheet" href="../css/style.CSS">
     </head>
-    <body>
-        
+
+    <body class="body-login">
+
+        <div id="login">
+
+            <div id="img-login">
+                <img class="img" src="../img/img-login.png" alt="">
+                <h1>Entrar no Spotify</h1>
+            </div>
+
+            <div id="login-centro">
+                <div id="google">
+                    <img class="img" src="../img/img-google.png" alt="">
+                    <p>Continuar com o Google</p>
+                </div>
+
+                <div id="fecebook">
+                    <img class="img" src="../img/img-fecebook.png" alt="">
+                    <p>Continuar com o Fecebook</p>
+                </div>
+
+                <div id="apple">
+                    <img class="img" src="../img/img-apple.png" alt="">
+                    <p>Continuar com a Apple</p>
+                </div>
+
+                <div id="tel">
+                    <p>Continuar com o número de <br>
+                        telefone</p>
+                </div>
+            </div>
+
+            <form>
+                <hr>
+                <div id="button-login">
+                    <label for="email">E-mail ou nome de usuário</label>
+                    <input type="text" name="email" id="email" placeholder="E-mail ou nome de usuário">
+                </div>
+                
+                <div id="button-login">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
+                </div>
+                
+                <div id="text-lembrar">
+                    <input type="checkbox">
+                    <label for="remember-me" id="remember-me">Lembrar de mim</label>
+                </div>
+
+                <div id="button-entrar">
+                    <a href="../HTML/index.html"><button type="button">Entrar</button></a>
+                </div>
+
+                <div id="esqueceu-senha">
+                    <p>Esqueceu sua senha?</p>
+                    <hr>
+                </div>
+
+                <div id="nao-tem-conta">
+                    <p id="conta">Não tem uma conta?</p>
+                    <p id="inscrever">Inscrever-se no Spotify</p>
+                </div>
+            </form>
+        </div>
+
+        <footer id="rodape">
+            <p>Este site é protegido pelo reCAPTCHA e está sujeito à</p>
+            <p id="politica"> Política de Privacidade</p>
+            <p>e aos</p>
+            <p id="servico"> Termos de Serviço</p>
+            <p>do Google.</p>
+        </footer>
+
     </body>
+
 </html>

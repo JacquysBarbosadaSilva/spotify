@@ -2,6 +2,268 @@
     margin: 0;
     padding: 0;
 }
+/* ------------------Login---------------------  */
+
+
+.body-login {
+    background: linear-gradient(to top, #010101, #2A2A2A);
+    font-family: 'Gotham', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#login {
+    background-color: #121212;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+#img-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#img-login img {
+    width: 40px;
+}
+
+.img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+#google, #fecebook, #apple, #tel {
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.426);
+    border-radius: 50px;
+    font-weight: bold;
+    justify-content: center;
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+form {
+    margin-left: 10px;
+}
+
+#button-login {
+    margin-bottom: 30px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#button-login label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+#button-login input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.426);
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+#button-lembrar button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#button-lembrar button:active {
+    background-color: #0056b3;
+    transform: translateY(1px);
+}
+
+#button-entrar button {
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #1FDF64;
+    border-radius: 50px;
+    background-color: #1FDF64;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#button-entrar button:hover {
+    width: 320px;
+    height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#esqueceu-senha {
+    margin-top: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#esqueceu-senha p:hover {
+    color: #1FDF64;
+    text-decoration: underline #1FDF64;
+    cursor: pointer;
+}
+
+#nao-tem-conta {
+    display: flex;
+    justify-content: center;
+}
+
+#conta {
+    color: grey;
+    font-weight: bolder;
+}
+
+#inscrever {
+    text-align: center;
+    margin-left: 5px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#nao-tem-conta #inscrever:hover {
+    color: #1FDF64;
+    text-decoration: underline #1FDF64;
+    cursor: pointer;
+}
+
+#login-centro {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-centro #fecebook:hover,
+#login-centro #google:hover,
+#login-centro #tel:hover,
+#login-centro #apple:hover {
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#button-login input:focus {
+    border: 4px solid white;
+}
+
+#button-login input:hover {
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#rodape {
+    color: gray;
+    display: flex;
+    background-color: #121212;
+    width: 100%;
+    height: 60px;
+    font-size: small;
+    margin-top: auto;
+    
+}
+
+#politica, #servico {
+    text-decoration: underline;
+}
+
+#rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape p{
+    margin: 3px;
+}
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.175);
+    margin: 40px 0;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 16px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    transition: .4s;
+    position: relative;
+    margin-right: 280px;
+    background-color: rgb(90, 89, 89);
+    border: rgb(90, 89, 89);
+}
+
+input:checked[type="checkbox"] {
+    background-color: rgb(110, 244, 110);
+    border: rgb(110, 244, 110);
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+    left: 0;
+    top: 0;
+    transform: scale(0.7);
+    transition: .4s;
+}
+
+input:checked[type="checkbox"]:before {
+    left: 20px;
+}
+
+#text-lembrar{
+    display: flex;
+    align-items: center;
+}
+
+#text-lembrar label{
+    margin-left: -270px; 
+    margin-right: 170px;
+    font-size: small;
+}
 
 /* ------------------Home page-------------------- */
 
@@ -68,7 +330,7 @@ body{
 .sidebar .navegacao ul li a:hover,
 .sidebar .navegacao ul li a:active,
 .sidebar .navegacao ul li a:focus{
-    color: white;
+    color: white;   
 }
 
 .sidebar .navegacao ul li a:hover .fa,
